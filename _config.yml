@@ -23,8 +23,8 @@ author:
   # Biographic information
   avatar           : "Sasha.jpg"
   name             : "Sasha Boguraev"
-  pronouns         : "he/him/his""  
-  bio              : "PhD Student in Computational Linguistics""
+  pronouns         : "he/him/his"
+  bio              : "PhD Student in Computational Linguistics"
   location         : "Austin"
   employer         : "University of Texas as Austin"
   uri              : # URL
@@ -33,7 +33,7 @@ author:
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : 
-"https://scholar.google.com/citations?authuser=1&user=iUKlzyQAAAAJ""
+"https://scholar.google.com/citations?authuser=1&user=iUKlzyQAAAAJ"
   impactstory      : # URL
   orcid            : 
 "https://orcid.org/my-orcid?orcid=0000-0003-0119-6650"
