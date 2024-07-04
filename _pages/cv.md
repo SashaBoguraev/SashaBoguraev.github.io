@@ -7,6 +7,6 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## {% include base_path %}
 
 * [CV](https://SashaBoguraev.github.io/files/CV.pdf)
