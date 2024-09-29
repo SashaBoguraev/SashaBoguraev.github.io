@@ -24,7 +24,7 @@ Selected Papers
 2. __Sasha Boguraev__, [What Do You Mean by That? - Idiolects, Casual Miscommunication, and the Evolutionary Fitness of Languages](https://SashaBoguraev.github.io/files/BoguraevHonorsThesis.pdf), Undergraduate Honors Thesis, 2024.
 
 News
-------s
+------
 * August 2024 - Started PhD at UT Austin
 * May 2024 - Graduated Cornell!
 * May 2024 - Defended Undergraduate Thesis, _What Do You Mean by That? - Idiolects, Casual Miscommunication, and the Evolutionary Fitness of Languages_, awarded Summa Cum Laude Honors.
