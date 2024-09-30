@@ -15,7 +15,7 @@ Previously, I graduated from Cornell University Summa Cum Laude, with degrees in
 Education
 ------
 * **BA in Computer Science, Mathematics, Computational Cognitive Science**, Cornell University, 2020 - 2024
-* **PhD in Linguistics**, University of Texas at Austin, 2024 - 2029
+* **PhD in Computational Linguistics, Minor in Computer Science**, University of Texas at Austin, 2024 - 2029
 
 
 Selected Papers
