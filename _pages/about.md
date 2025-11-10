@@ -20,16 +20,23 @@ Education
 
 Selected Papers
 ------  
-1. __Sasha Boguraev__, Christopher Potts, Kyle Mahowald. 2025. [Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions](https://SashaBoguraev.github.io/files/2505.16002v1.pdf) Accepted, Emperical Methods in Natural Language Processing, 2025 (Main).
+1. __Sasha Boguraev__, Christopher Potts, Kyle Mahowald. 2025. [Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions](https://SashaBoguraev.github.io/files/2505.16002v1.pdf) Outstanding Paper, Oral Spotlight, Emperical Methods in Natural Language Processing, 2025 (Main).
 2. __Sasha Boguraev__, Katrin Erk, Kyle Mahowald, James Shearer, Steve Wechsler. 2025. [Reinforcement learning produces efficient case-marking systems](https://SashaBoguraev.github.io/files/split-erg.pdf) Proceedings of the Annual Meeting of the Cognitive Science Society, 47.
 3. __Sasha Boguraev__, Ben Lipkin, Leonie Weissweiler, Kyle Mahowald. 2024. [Models Can and Should Embrace the Communicative Nature of Human-Generated Math.](https://SashaBoguraev.github.io/files/Math_and_AI_Position___Sasha__Ben__Kyle.pdf) 4th MATH-AI Workshop at NeurIPS’24.
 4. __Sasha Boguraev__, [What Do You Mean by That? - Idiolects, Casual Miscommunication, and the Evolutionary Fitness of Languages](https://SashaBoguraev.github.io/files/BoguraevHonorsThesis.pdf), Undergraduate Honors Thesis, 2024.
 
-News
-------
-* August 2024 - Started PhD at UT Austin
-* May 2024 - Graduated Cornell!
-* May 2024 - Defended Undergraduate Thesis, _What Do You Mean by That? - Idiolects, Casual Miscommunication, and the Evolutionary Fitness of Languages_, awarded Summa Cum Laude Honors.
+## News
+
+<div style="max-height: 150px; overflow-y: auto; border-left: 3px solid #ccc; padding-left: 10px;">
+
+- **November 2025** - [Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions](https://SashaBoguraev.github.io/files/2505.16002v1.pdf) was selected as an **Outstanding Paper** at EMNLP 2025!
+- **August 2025** - [Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions](https://SashaBoguraev.github.io/files/2505.16002v1.pdf) was accepted to EMNLP 2025 as an Oral Spotlight. See you in Suzhou!
+- **October 2024** - [Models Can and Should Embrace the Communicative Nature of Human-Generated Math.](https://SashaBoguraev.github.io/files/Math_and_AI_Position___Sasha__Ben__Kyle.pdf) was accepted to the MathAI Workshop at NeurIPS 2024. See you in Vancouver!
+- **August 2024** – Started PhD at UT Austin  
+- **May 2024** – Graduated Cornell!  
+- **May 2024** – Defended Undergraduate Thesis, _What Do You Mean by That? — Idiolects, Casual Miscommunication, and the Evolutionary Fitness of Languages_, awarded **Summa Cum Laude** Honors.
+
+</div>
 
 
 In the Media
