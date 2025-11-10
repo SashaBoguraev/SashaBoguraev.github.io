@@ -27,7 +27,7 @@ Selected Papers
 
 ## News
 
-<div style="max-height: 150px; overflow-y: auto; border-left: 3px solid #ccc; padding-left: 10px;">
+<div style="max-height: 150px; overflow-y: auto; border-left: 3px solid #ccc; padding-left: 10px;" markdown="1"">
 
 - **November 2025** - [Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions](https://SashaBoguraev.github.io/files/2505.16002v1.pdf) was selected as an **Outstanding Paper** at EMNLP 2025!
 - **August 2025** - [Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions](https://SashaBoguraev.github.io/files/2505.16002v1.pdf) was accepted to EMNLP 2025 as an Oral Spotlight. See you in Suzhou!
