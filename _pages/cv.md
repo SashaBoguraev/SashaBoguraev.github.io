@@ -1,10 +1,11 @@
 ---
-layout: archive
-title: CV
+layout: raw
+title: "cv"
 permalink: /cv/
-author_profile: true
 redirect_from:
   - /resume
 ---
+
+<p class="status-line">$ cat cv.pdf <span class="blink">_</span></p>
 
 [Download my CV here.](https://SashaBoguraev.github.io/files/SashaBoguraevCV.pdf)

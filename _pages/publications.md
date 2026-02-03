@@ -1,15 +1,39 @@
 ---
-layout: archive
-title: "Selected Publications"
+layout: raw
+title: "papers"
 permalink: /publications/
-author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<p class="status-line">$ ls papers/ <span class="blink">_</span></p>
 
-1. __Sasha Boguraev__, Christopher Potts, Kyle Mahowald. 2025. [Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions](https://SashaBoguraev.github.io/files/2505.16002v1.pdf) Outstanding Paper, Oral Spotlight, Emperical Methods in Natural Language Processing, 2025 (Main).
-2. __Sasha Boguraev__, Katrin Erk, Kyle Mahowald, James Shearer, Steve Wechsler. 2025. [Reinforcement learning produces efficient case-marking systems](https://SashaBoguraev.github.io/files/split-erg.pdf) Proceedings of the Annual Meeting of the Cognitive Science Society, 47.
-3. __Sasha Boguraev__, Ben Lipkin, Leonie Weissweiler, Kyle Mahowald. 2024. [Models Can and Should Embrace the Communicative Nature of Human-Generated Math.](https://SashaBoguraev.github.io/files/Math_and_AI_Position___Sasha__Ben__Kyle.pdf) 4th MATH-AI Workshop at NeurIPS’24.
-4. __Sasha Boguraev__, [What Do You Mean by That? - Idiolects, Casual Miscommunication, and the Evolutionary Fitness of Languages](https://SashaBoguraev.github.io/files/BoguraevHonorsThesis.pdf), Undergraduate Honors Thesis, 2024.
+You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?authuser=1&user=iUKlzyQAAAAJ).
+
+---
+
+## 2025
+
+<div class="paper award">
+<div class="paper-title">🏆 <a href="https://SashaBoguraev.github.io/files/2505.16002v1.pdf">Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions</a></div>
+<div class="paper-authors"><strong>Sasha Boguraev</strong>, Christopher Potts, Kyle Mahowald</div>
+<div class="paper-venue">EMNLP 2025 Outstanding Paper Award, Oral Spotlight</div>
+</div>
+
+<div class="paper">
+<div class="paper-title"><a href="https://SashaBoguraev.github.io/files/split-erg.pdf">Reinforcement learning produces efficient case-marking systems</a></div>
+<div class="paper-authors"><strong>Sasha Boguraev</strong>, Katrin Erk, Kyle Mahowald, James Shearer, Steve Wechsler</div>
+<div class="paper-venue">Proceedings of the Annual Meeting of the Cognitive Science Society, 47</div>
+</div>
+
+## 2024
+
+<div class="paper">
+<div class="paper-title"><a href="https://SashaBoguraev.github.io/files/Math_and_AI_Position___Sasha__Ben__Kyle.pdf">Models Can and Should Embrace the Communicative Nature of Human-Generated Math</a></div>
+<div class="paper-authors"><strong>Sasha Boguraev</strong>, Ben Lipkin, Leonie Weissweiler, Kyle Mahowald</div>
+<div class="paper-venue">4th MATH-AI Workshop at NeurIPS'24</div>
+</div>
+
+<div class="paper">
+<div class="paper-title"><a href="https://SashaBoguraev.github.io/files/BoguraevHonorsThesis.pdf">What Do You Mean by That? - Idiolects, Casual Miscommunication, and the Evolutionary Fitness of Languages</a></div>
+<div class="paper-authors"><strong>Sasha Boguraev</strong></div>
+<div class="paper-venue">Undergraduate Honors Thesis</div>
+</div>

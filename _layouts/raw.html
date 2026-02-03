@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/raw.css' | relative_url }}">
+</head>
+<body>
+<script>
+  // Check for saved theme preference or default to dark
+  const savedTheme = localStorage.getItem('theme') || 'dark';
+  if (savedTheme === 'light') {
+    document.body.classList.add('light-mode');
+  }
+</script>
+  <div class="container">
+    <header class="site-header">
+      <pre class="ascii-name">
+███████╗ █████╗ ███████╗██╗  ██╗ █████╗
+██╔════╝██╔══██╗██╔════╝██║  ██║██╔══██╗
+███████╗███████║███████╗███████║███████║
+╚════██║██╔══██║╚════██║██╔══██║██╔══██║
+███████║██║  ██║███████║██║  ██║██║  ██║
+╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝</pre>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>[home]</a>
+        <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} class="active"{% endif %}>[papers]</a>
+        <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} class="active"{% endif %}>[cv]</a>
+        <a href="mailto:{{ site.author.email }}">[email]</a>
+        <a href="https://github.com/{{ site.author.github }}" target="_blank">[github]</a>
+        <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode">[light]</button>
+      </nav>
+    </header>
+
+    <main class="content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-line"></div>
+      <p>last updated: {{ site.time | date: "%Y-%m-%d" }} | powered by <a href="https://jekyllrb.com">jekyll</a></p>
+    </footer>
+  </div>
+<script>
+  function toggleTheme() {
+    const body = document.body;
+    const btn = document.querySelector('.theme-toggle');
+    body.classList.toggle('light-mode');
+
+    if (body.classList.contains('light-mode')) {
+      localStorage.setItem('theme', 'light');
+      btn.textContent = '[dark]';
+    } else {
+      localStorage.setItem('theme', 'dark');
+      btn.textContent = '[light]';
+    }
+  }
+
+  // Update button text on load
+  document.addEventListener('DOMContentLoaded', function() {
+    const btn = document.querySelector('.theme-toggle');
+    if (document.body.classList.contains('light-mode')) {
+      btn.textContent = '[dark]';
+    }
+  });
+</script>
+</body>
+</html>
