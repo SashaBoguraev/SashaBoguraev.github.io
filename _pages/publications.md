@@ -8,7 +8,21 @@ permalink: /publications/
 
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?authuser=1&user=iUKlzyQAAAAJ).
 
+https://arxiv.org/abs/2602.23547
+
 ---
+
+## 2026
+<div class="paper">
+<div class="paper-title"><a href="https://SashaBoguraev.github.io/files/2602.23547v1.pdf">France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions</a></div>
+<div class="paper-authors">
+  <strong>Sasha Boguraev<sup>*</sup></strong>, Qing Yao<sup>*</sup>, Kyle Mahowald
+</div>
+<div class="author-note">
+  <sup>*</sup> Equal contribution
+</div>
+<div class="paper-venue">Preprint</div>
+</div>
 
 ## 2025
 
