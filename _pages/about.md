@@ -44,8 +44,9 @@ Previously, I graduated from Cornell University Summa Cum Laude, with degrees in
 ## news
 
 <div class="news-scroll">
+<div class="news-item"><span class="news-date">April 2026</span><span>France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions accepted to CogSci 2026. See you in Rio 🇧🇷l!</span></div>
 <div class="news-item"><span class="news-date">Nov 2025</span><span>🏆 Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions awarded Outstanding Paper at EMNLP 2025!</span></div>
-<div class="news-item"><span class="news-date">Aug 2025</span><span>Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions accepted to EMNLP 2025 as Oral Spotlight. See you in Suzhou!</span></div>
+<div class="news-item"><span class="news-date">Aug 2025</span><span>Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions accepted to EMNLP 2025 as Oral Spotlight. See you in Suzhou 🇨🇳!</span></div>
 <div class="news-item"><span class="news-date">Apr 2025</span><span>Reinforcement learning produces efficient case-marking systems accepted to CogSci 2025</span></div>
 <div class="news-item"><span class="news-date">Oct 2024</span><span>Models Can and Should Embrace the Communicative Nature of Human-Generated Math accepted to 4th MATH-AI Workshop at NeurIPS'24. See you in Vancouver!</span></div>
 <div class="news-item"><span class="news-date">Aug 2024</span><span>Started PhD at UT Austin</span></div>
