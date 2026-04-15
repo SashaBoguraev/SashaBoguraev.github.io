@@ -33,7 +33,7 @@ Previously, I graduated from Cornell University Summa Cum Laude, with degrees in
 
 1. 🏆 **Sasha Boguraev**, Christopher Potts, Kyle Mahowald. [Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions](https://aclanthology.org/2025.emnlp-main.1271) *EMNLP 2025 Outstanding Paper Award, Oral Spotlight.*
 
-2. **Sasha Boguraev**, Qing Yao, Kyle Mahowald. [France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions](https://arxiv.org/abs/2602.23547) *Preprint; Under Review*
+2. **Sasha Boguraev**, Qing Yao, Kyle Mahowald. [France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions](https://arxiv.org/abs/2602.23547) *CogSci 2026.*
 
 3. **Sasha Boguraev**, Katrin Erk, Kyle Mahowald, James Shearer, Steve Wechsler. [Reinforcement learning produces efficient case-marking systems](https://escholarship.org/uc/item/5c03t5fp) *CogSci 2025.*
 
