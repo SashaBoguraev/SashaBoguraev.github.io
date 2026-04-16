@@ -15,11 +15,19 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 
 ## 2026
 <div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2604.13950">Causal Drawbridges: Characterizing Gradient Blocking of Syntactic Islands in Transformer LMs</a></div>
+<div class="paper-authors">
+  <strong>Sasha Boguraev</strong>, Kyle Mahowald
+</div>
+<div class="paper-venue">Proceedings of the Annual Meeting of the Cognitive Science Society, 48</div>
+</div>
+
+<div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2602.23547">France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions</a></div>
 <div class="paper-authors">
   <strong>Sasha Boguraev<sup>*</sup></strong>, Qing Yao<sup>*</sup>, Kyle Mahowald
 </div>
-<div class="paper-venue">Preprint</div>
+<div class="paper-venue">Proceedings of the Annual Meeting of the Cognitive Science Society, 48</div>
 </div>
 
 ## 2025
