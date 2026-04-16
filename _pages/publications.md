@@ -19,7 +19,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 <div class="paper-authors">
   <strong>Sasha Boguraev</strong>, Kyle Mahowald
 </div>
-<div class="paper-venue">Proceedings of the Annual Meeting of the Cognitive Science Society, 48</div>
+<div class="paper-venue">Preprint. Under Review.</div>
 </div>
 
 <div class="paper">
