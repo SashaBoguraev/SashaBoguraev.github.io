@@ -39,14 +39,10 @@ Previously, I graduated from Cornell University Summa Cum Laude, with degrees in
 
 4. **Sasha Boguraev**, Katrin Erk, Kyle Mahowald, James Shearer, Steve Wechsler. [Reinforcement learning produces efficient case-marking systems](https://escholarship.org/uc/item/5c03t5fp) *CogSci 2025.*
 
-5. **Sasha Boguraev**, Ben Lipkin, Leonie Weissweiler, Kyle Mahowald. [Models Can and Should Embrace the Communicative Nature of Human-Generated Math.](https://arxiv.org/abs/2409.17005) *4th MATH-AI Workshop at NeurIPS'24.*
-
-6. **Sasha Boguraev**. [What Do You Mean by That? - Idiolects, Casual Miscommunication, and the Evolutionary Fitness of Languages](https://SashaBoguraev.github.io/files/BoguraevHonorsThesis.pdf). *Undergraduate Honors Thesis, 2024.*
-
 ## news
 
 <div class="news-scroll">
-<div class="news-item"><span class="news-date">Apr 2026</span><span>France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions accepted to CogSci 2026. See you in Rio 🇧🇷l!</span></div>
+<div class="news-item"><span class="news-date">Apr 2026</span><span>France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions accepted to CogSci 2026. See you in Rio 🇧🇷!</span></div>
 <div class="news-item"><span class="news-date">Nov 2025</span><span>🏆 Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions awarded Outstanding Paper at EMNLP 2025!</span></div>
 <div class="news-item"><span class="news-date">Aug 2025</span><span>Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions accepted to EMNLP 2025 as Oral Spotlight. See you in Suzhou 🇨🇳!</span></div>
 <div class="news-item"><span class="news-date">Apr 2025</span><span>Reinforcement learning produces efficient case-marking systems accepted to CogSci 2025</span></div>
