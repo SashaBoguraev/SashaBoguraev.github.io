@@ -33,13 +33,15 @@ Previously, I graduated from Cornell University Summa Cum Laude, with degrees in
 
 1. 🏆 **Sasha Boguraev**, Christopher Potts, Kyle Mahowald. [Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions](https://aclanthology.org/2025.emnlp-main.1271) *EMNLP 2025 Outstanding Paper Award, Oral Spotlight.*
 
-2. **Sasha Boguraev**, Qing Yao, Kyle Mahowald. [France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions](https://arxiv.org/abs/2602.23547) *CogSci 2026.*
+2. **Sasha Boguraev**, Kyle Mahowald. [Causal Drawbridges: Characterizing Gradient Blocking of Syntactic Islands in Transformer LMs](http://arxiv.org/abs/2604.13950) *Preprint. Under Review*
 
-3. **Sasha Boguraev**, Katrin Erk, Kyle Mahowald, James Shearer, Steve Wechsler. [Reinforcement learning produces efficient case-marking systems](https://escholarship.org/uc/item/5c03t5fp) *CogSci 2025.*
+3. **Sasha Boguraev**, Qing Yao, Kyle Mahowald. [France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions](https://arxiv.org/abs/2602.23547) *CogSci 2026.*
 
-4. **Sasha Boguraev**, Ben Lipkin, Leonie Weissweiler, Kyle Mahowald. [Models Can and Should Embrace the Communicative Nature of Human-Generated Math.](https://arxiv.org/abs/2409.17005) *4th MATH-AI Workshop at NeurIPS'24.*
+4. **Sasha Boguraev**, Katrin Erk, Kyle Mahowald, James Shearer, Steve Wechsler. [Reinforcement learning produces efficient case-marking systems](https://escholarship.org/uc/item/5c03t5fp) *CogSci 2025.*
 
-5. **Sasha Boguraev**. [What Do You Mean by That? - Idiolects, Casual Miscommunication, and the Evolutionary Fitness of Languages](https://SashaBoguraev.github.io/files/BoguraevHonorsThesis.pdf). *Undergraduate Honors Thesis, 2024.*
+5. **Sasha Boguraev**, Ben Lipkin, Leonie Weissweiler, Kyle Mahowald. [Models Can and Should Embrace the Communicative Nature of Human-Generated Math.](https://arxiv.org/abs/2409.17005) *4th MATH-AI Workshop at NeurIPS'24.*
+
+6. **Sasha Boguraev**. [What Do You Mean by That? - Idiolects, Casual Miscommunication, and the Evolutionary Fitness of Languages](https://SashaBoguraev.github.io/files/BoguraevHonorsThesis.pdf). *Undergraduate Honors Thesis, 2024.*
 
 ## news
 
