@@ -1,0 +1,305 @@
+/* ==========================================================================
+   Clean academic aesthetic
+   ========================================================================== */
+
+:root {
+  --bg: #ffffff;
+  --text: #1a1a1a;
+  --text-dim: #5a5a5a;
+  --link: #2454a8;
+  --link-hover: #16305e;
+  --border: #e3e3e3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem 3rem;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.site-header {
+  margin-bottom: 2.75rem;
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.site-name {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  font-size: 1.9rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.site-name a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.site-tagline {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  margin-top: 0.35rem;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.35rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--border);
+}
+
+.site-nav a {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.92rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid transparent;
+}
+
+.site-nav a:hover {
+  color: var(--link);
+}
+
+.site-nav a.active {
+  color: var(--link);
+  border-bottom-color: var(--link);
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content h1,
+.content h2,
+.content h3,
+.content h4 {
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.content h2 {
+  font-size: 1.3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.content h2:first-child {
+  margin-top: 0;
+}
+
+.content h3 {
+  font-size: 1.05rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.content p {
+  margin-bottom: 1.1rem;
+}
+
+.content a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: #c3cede;
+  text-underline-offset: 2px;
+}
+
+.content a:hover {
+  color: var(--link-hover);
+  text-decoration-color: var(--link-hover);
+}
+
+.content strong {
+  font-weight: 600;
+}
+
+.content ul,
+.content ol {
+  margin-bottom: 1.1rem;
+  padding-left: 1.4rem;
+}
+
+.content li {
+  margin-bottom: 0.45rem;
+}
+
+.content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+
+.content pre {
+  background: #f6f6f6;
+  padding: 1rem;
+  overflow-x: auto;
+  margin-bottom: 1.1rem;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  line-height: 1.5;
+}
+
+.content code {
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+
+/* ==========================================================================
+   Home / intro
+   ========================================================================== */
+
+.intro-section p:first-child {
+  margin-top: 0;
+}
+
+/* ==========================================================================
+   Publications
+   ========================================================================== */
+
+.author-note {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin-bottom: 1.75rem;
+}
+
+.paper {
+  margin-bottom: 1.4rem;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.paper:last-child {
+  border-bottom: none;
+}
+
+.paper-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.paper-authors {
+  color: var(--text-dim);
+  font-size: 0.92rem;
+  margin-bottom: 0.15rem;
+}
+
+.paper-venue {
+  color: var(--text-dim);
+  font-size: 0.88rem;
+  font-style: italic;
+}
+
+.paper.award .paper-venue {
+  color: #8a6d00;
+}
+
+/* ==========================================================================
+   News
+   ========================================================================== */
+
+.news-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.news-item {
+  display: flex;
+  gap: 1.25rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.94rem;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  color: var(--text-dim);
+  white-space: nowrap;
+  min-width: 66px;
+  font-size: 0.85rem;
+  padding-top: 0.1rem;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.site-footer {
+  margin-top: 3.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.site-footer p {
+  color: var(--text-dim);
+  font-size: 0.82rem;
+}
+
+/* ==========================================================================
+   Responsive
+   ========================================================================== */
+
+@media (max-width: 540px) {
+  .container {
+    padding: 2rem 1.25rem 2.5rem;
+  }
+
+  .header-flex {
+    gap: 1rem;
+  }
+
+  .avatar {
+    width: 72px;
+    height: 72px;
+  }
+
+  .site-name {
+    font-size: 1.5rem;
+  }
+
+  .news-item {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+}

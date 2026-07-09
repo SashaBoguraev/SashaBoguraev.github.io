@@ -1,19 +1,17 @@
 ---
-layout: raw
+layout: clean
 title: "papers"
 permalink: /publications/
 ---
 
-<p class="status-line">$ ls papers/ <span class="blink">_</span></p>
-
 You can also find my articles on [my Google Scholar profile](https://scholar.google.com/citations?authuser=1&user=iUKlzyQAAAAJ).
 
----
 <div class="author-note">
   <sup>*</sup> Indicates equal contribution
 </div>
 
 ## 2026
+
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2604.13950">Causal Drawbridges: Characterizing Gradient Blocking of Syntactic Islands in Transformer LMs</a></div>
 <div class="paper-authors">

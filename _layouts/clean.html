@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title | capitalize }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  <link rel="stylesheet" href="{{ '/assets/css/clean.css' | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <header class="site-header">
+      <div class="header-flex">
+        <img src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="avatar">
+        <div class="header-text">
+          <h1 class="site-name"><a href="{{ '/' | relative_url }}">{{ site.author.name }}</a></h1>
+          <p class="site-tagline">{{ site.author.bio }} &middot; {{ site.author.employer }}</p>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a>
+        <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} class="active"{% endif %}>Papers</a>
+        <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} class="active"{% endif %}>CV</a>
+        <a href="mailto:{{ site.author.email }}">Email</a>
+        <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+        {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+      </nav>
+    </header>
+
+    <main class="content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Last updated {{ site.time | date: "%B %Y" }}.</p>
+    </footer>
+  </div>
+</body>
+</html>
