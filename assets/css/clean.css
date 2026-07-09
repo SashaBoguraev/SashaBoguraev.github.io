@@ -3,12 +3,12 @@
    ========================================================================== */
 
 :root {
-  --bg: #ffffff;
+  --bg: #fdf9f3;
   --text: #1a1a1a;
   --text-dim: #5a5a5a;
-  --link: #2454a8;
-  --link-hover: #16305e;
-  --border: #e3e3e3;
+  --link: #c0392b;
+  --link-hover: #922b21;
+  --border: #e3ddd0;
 }
 
 * {
@@ -22,7 +22,7 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: "Inconsolata", "SF Mono", Menlo, Consolas, monospace;
   background-color: var(--bg);
   color: var(--text);
   line-height: 1.65;
@@ -30,7 +30,7 @@ body {
 }
 
 .container {
-  max-width: 720px;
+  max-width: 760px;
   margin: 0 auto;
   padding: 3.5rem 1.5rem 3rem;
 }
@@ -40,28 +40,13 @@ body {
    ========================================================================== */
 
 .site-header {
-  margin-bottom: 2.75rem;
-}
-
-.header-flex {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-  margin-bottom: 1.75rem;
-}
-
-.avatar {
-  width: 96px;
-  height: 96px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
+  margin-bottom: 2.25rem;
 }
 
 .site-name {
-  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  font-family: inherit;
   font-size: 1.9rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: -0.01em;
 }
 
@@ -72,15 +57,33 @@ body {
 
 .site-tagline {
   color: var(--text-dim);
-  font-size: 0.95rem;
-  margin-top: 0.35rem;
+  font-size: 0.92rem;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+
+.site-tagline a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: #e0b5ae;
+  text-underline-offset: 2px;
+}
+
+.site-tagline a:hover {
+  color: var(--link-hover);
+}
+
+.site-tagline strong {
+  color: var(--text);
+  font-weight: 700;
 }
 
 .site-nav {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem 1.35rem;
-  padding-top: 1.1rem;
+  padding-top: 1.4rem;
+  margin-top: 1.4rem;
   border-top: 1px solid var(--border);
 }
 
@@ -109,8 +112,8 @@ body {
 .content h2,
 .content h3,
 .content h4 {
-  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
-  font-weight: 600;
+  font-family: inherit;
+  font-weight: 700;
   color: var(--text);
 }
 
@@ -191,6 +194,30 @@ body {
   margin-top: 0;
 }
 
+.intro-section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.avatar {
+  float: left;
+  width: 240px;
+  height: auto;
+  margin: 0 1.75rem 1rem 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 620px) {
+  .avatar {
+    float: none;
+    display: block;
+    width: 200px;
+    margin: 0 auto 1.5rem;
+  }
+}
+
 /* ==========================================================================
    Publications
    ========================================================================== */
@@ -238,7 +265,13 @@ body {
 
 .news-list {
   list-style: none;
-  padding-left: 0;
+  padding: 0.25rem 1rem;
+  margin: 0;
+  max-height: 220px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  background: #fbf5ea;
 }
 
 .news-item {
@@ -259,6 +292,19 @@ body {
   min-width: 66px;
   font-size: 0.85rem;
   padding-top: 0.1rem;
+}
+
+.news-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.news-list::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
 }
 
 /* ==========================================================================
@@ -283,15 +329,6 @@ body {
 @media (max-width: 540px) {
   .container {
     padding: 2rem 1.25rem 2.5rem;
-  }
-
-  .header-flex {
-    gap: 1rem;
-  }
-
-  .avatar {
-    width: 72px;
-    height: 72px;
   }
 
   .site-name {

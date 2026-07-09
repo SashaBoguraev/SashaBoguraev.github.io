@@ -17,7 +17,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 <div class="paper-authors">
   <strong>Sasha Boguraev</strong>, Kyle Mahowald
 </div>
-<div class="paper-venue">Preprint. Under Review.</div>
+<div class="paper-venue">COLM 2026</div>
 </div>
 
 <div class="paper">

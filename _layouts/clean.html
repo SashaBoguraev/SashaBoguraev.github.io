@@ -5,18 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | capitalize }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/clean.css' | relative_url }}">
 </head>
 <body>
   <div class="container">
     <header class="site-header">
-      <div class="header-flex">
-        <img src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="avatar">
-        <div class="header-text">
-          <h1 class="site-name"><a href="{{ '/' | relative_url }}">{{ site.author.name }}</a></h1>
-          <p class="site-tagline">{{ site.author.bio }} &middot; {{ site.author.employer }}</p>
-        </div>
-      </div>
+      <h1 class="site-name"><a href="{{ '/' | relative_url }}">{{ site.author.name }}</a></h1>
+      <p class="site-tagline">PhD Student in Computational Linguistics @ <a href="https://sites.utexas.edu/compling/" target="_blank" rel="noopener">UT Austin</a> &middot; <strong>Previously:</strong> <a href="https://www.cornell.edu/" target="_blank" rel="noopener">Cornell</a>, <a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener">NASA JPL</a></p>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a>
         <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} class="active"{% endif %}>Papers</a>
