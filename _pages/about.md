@@ -10,7 +10,7 @@ redirect_from:
 <div class="intro-section" markdown="1">
 <img src="/images/Sasha.jpg" alt="Sasha Boguraev" class="avatar">
 
-I am a second-year PhD student in the [UT Austin Computational Linguistics Group](https://sites.utexas.edu/compling/). I am fortunate to be advised by [Kyle Mahowald](https://mahowak.github.io/). I work on **interpretability**, with a focus on what the study of language model internals can tell us more broadly about language and cognition.
+I am a third-year PhD student in the [UT Austin Computational Linguistics Group](https://sites.utexas.edu/compling/). I am fortunate to be advised by [Kyle Mahowald](https://mahowak.github.io/). I work on **interpretability**, with a focus on what the study of language model internals can tell us more broadly about language and cognition.
 
 Previously, I graduated from Cornell University Summa Cum Laude, with degrees in [Computer Science](https://www.cs.cornell.edu/), [Mathematics](https://math.cornell.edu/), and Computational Cognitive Science (the latter through the [College Scholar Program](https://as.cornell.edu/education/college-scholar-program)). During my undergraduate studies, I was fortunate enough to work with [Dr. Morten H. Christiansen](https://psychology.cornell.edu/morten-h-christiansen) and [Dr. Eugene Vinitsky](https://www.eugenevinitsky.com/) utilizing Multi-Agent Reinforcement Learning to study idiolects in human language. I have also spent time at NASA's Jet Propulsion Laboratories working on Retrieval-Augmented Generation (RAG) systems.
 </div>
@@ -47,3 +47,12 @@ Previously, I graduated from Cornell University Summa Cum Laude, with degrees in
 ## In the Media
 
 I was named one of the Cornell Arts and Sciences Extraordinary Seniors, and had a brief [profile](https://math.cornell.edu/news/i-studied-why-miscommunication-and-ambiguity-are-so-prevalent-human-language) written on my time at Cornell.
+
+## Elsewhere
+
+- [Publications](/publications/)
+- [CV](/cv/)
+- [Email](mailto:sasha.boguraev@utexas.edu)
+- [GitHub](https://github.com/SashaBoguraev)
+- [Google Scholar](https://scholar.google.com/citations?authuser=1&user=iUKlzyQAAAAJ)
+- [UT Austin Computational Linguistics Group](https://sites.utexas.edu/compling/)

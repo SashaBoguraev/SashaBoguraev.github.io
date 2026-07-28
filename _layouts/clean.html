@@ -5,23 +5,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title | capitalize }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/clean.css' | relative_url }}">
 </head>
 <body>
   <div class="container">
     <header class="site-header">
-      <h1 class="site-name"><a href="{{ '/' | relative_url }}">{{ site.author.name }}</a></h1>
-      <p class="site-tagline">PhD Student in Computational Linguistics @ <a href="https://sites.utexas.edu/compling/" target="_blank" rel="noopener">UT Austin</a> &middot; <strong>Previously:</strong> <a href="https://www.cornell.edu/" target="_blank" rel="noopener">Cornell</a>, <a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener">NASA JPL</a></p>
+      <h1 class="site-name">
+        <a href="{{ '/' | relative_url }}" aria-label="{{ site.author.name }}">
+          <span id="typewriter" aria-hidden="true"></span>
+        </a><span class="cursor" aria-hidden="true">_</span>
+      </h1>
+      <script>
+        (function () {
+          var words = [
+            { text: "{{ site.author.name }}", weight: 5 },
+            { text: "Interpretability Researcher", weight: 3 },
+            { text: "Computational Linguist", weight: 3 },
+            { text: "Computational Cognitive Scientist", weight: 1 },
+            { text: "New Yorker", weight: 1 }
+          ];
+          var el = document.getElementById("typewriter");
+          if (!el) return;
+
+          var recent = [];
+
+          function pickNext() {
+            var candidates = words.filter(function (w) { return recent.indexOf(w.text) === -1; });
+            var total = candidates.reduce(function (sum, w) { return sum + w.weight; }, 0);
+            var r = Math.random() * total;
+            var chosen = candidates[candidates.length - 1].text;
+            for (var i = 0; i < candidates.length; i++) {
+              r -= candidates[i].weight;
+              if (r <= 0) { chosen = candidates[i].text; break; }
+            }
+            recent.push(chosen);
+            if (recent.length > 2) recent.shift();
+            return chosen;
+          }
+
+          var currentWord = pickNext();
+          var charIndex = 0, deleting = false;
+
+          function tick() {
+            if (!deleting) {
+              charIndex++;
+              el.textContent = currentWord.slice(0, charIndex);
+              if (charIndex === currentWord.length) {
+                deleting = true;
+                setTimeout(tick, 1400);
+                return;
+              }
+            } else {
+              charIndex--;
+              el.textContent = currentWord.slice(0, charIndex);
+              if (charIndex === 0) {
+                deleting = false;
+                currentWord = pickNext();
+              }
+            }
+            setTimeout(tick, deleting ? 45 : 90);
+          }
+
+          tick();
+        })();
+      </script>
+      <p class="site-tagline"><strong>Currently:</strong> PhD Student in Computational Linguistics @ <a href="https://sites.utexas.edu/compling/" target="_blank" rel="noopener">UT Austin</a></p>
+      <p class="site-tagline"><strong>Previously:</strong> <a href="https://www.cornell.edu/" target="_blank" rel="noopener">Cornell</a>, <a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener">NASA JPL</a></p>
+      <hr>
       <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a>
-        <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} class="active"{% endif %}>Papers</a>
-        <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} class="active"{% endif %}>CV</a>
-        <a href="mailto:{{ site.author.email }}">Email</a>
+        [
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a> |
+        <a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} class="active"{% endif %}>Papers</a> |
+        <a href="{{ '/cv/' | relative_url }}"{% if page.url == '/cv/' %} class="active"{% endif %}>CV</a> |
+        <a href="mailto:{{ site.author.email }}">Email</a> |
         <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
-        {% if site.author.googlescholar %}<a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+        {% if site.author.googlescholar %}| <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener">Scholar</a>{% endif %}
+        ]
       </nav>
     </header>
 
@@ -30,7 +89,8 @@
     </main>
 
     <footer class="site-footer">
-      <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Last updated {{ site.time | date: "%B %Y" }}.</p>
+      <hr>
+      <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}. Last updated {{ site.time | date: "%B %Y" }}. This page validates to nothing in particular and is proud of it.</p>
     </footer>
   </div>
 </body>
