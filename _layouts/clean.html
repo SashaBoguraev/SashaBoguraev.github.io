@@ -43,7 +43,8 @@
             return chosen;
           }
 
-          var currentWord = pickNext();
+          var currentWord = "{{ site.author.name }}";
+          recent.push(currentWord);
           var charIndex = 0, deleting = false;
 
           function tick() {
