@@ -10,6 +10,7 @@
 <body>
   <div class="container">
     <header class="site-header">
+      {% if page.url == '/' %}
       <h1 class="site-name">
         <a href="{{ '/' | relative_url }}" aria-label="{{ site.author.name }}">
           <span id="typewriter" aria-hidden="true"></span>
@@ -70,6 +71,9 @@
           tick();
         })();
       </script>
+      {% else %}
+      <h1 class="site-name"><a href="{{ '/' | relative_url }}">{{ site.author.name }}</a></h1>
+      {% endif %}
       <p class="site-tagline"><strong>Currently:</strong> PhD Student in Computational Linguistics @ <a href="https://sites.utexas.edu/compling/" target="_blank" rel="noopener">UT Austin</a></p>
       <p class="site-tagline"><strong>Previously:</strong> Computer Science, Math @ <a href="https://www.cornell.edu/" target="_blank" rel="noopener">Cornell</a> &middot; ML Research Intern @ <a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener">JPL</a></p>
       <hr>

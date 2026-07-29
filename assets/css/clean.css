@@ -259,6 +259,71 @@ body {
   font-weight: bold;
 }
 
+.paper-links {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.paper-toggle {
+  display: contents;
+}
+
+.paper-toggle summary {
+  cursor: pointer;
+  color: var(--link);
+  text-decoration: underline;
+  font-size: 0.9rem;
+  order: 0;
+  list-style: none;
+}
+
+.paper-toggle summary::-webkit-details-marker {
+  display: none;
+}
+
+.paper-toggle summary::before {
+  content: "\25B8";
+  display: inline-block;
+  margin-right: 0.3em;
+  text-decoration: none;
+  transition: transform 0.15s ease;
+}
+
+.paper-toggle[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.paper-toggle summary:hover {
+  color: var(--link-visited);
+}
+
+.paper-toggle p,
+.paper-toggle pre {
+  order: 1;
+  flex-basis: 100%;
+  margin-top: 0.5rem;
+  font-size: 0.92rem;
+  color: var(--text);
+}
+
+.paper-toggle pre {
+  margin-top: 0.5rem;
+}
+
+.paper-github {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text);
+  flex-basis: auto;
+}
+
+.paper-github:hover {
+  color: var(--link);
+}
+
 /* ==========================================================================
    News
    ========================================================================== */
