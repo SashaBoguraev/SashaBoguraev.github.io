@@ -13,6 +13,75 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 ## 2026
 
 <div class="paper">
+<div class="paper-title">The Emergence and Sparsification of a Syntactic Circuit</div>
+<div class="paper-authors">
+  Qing Yao, <strong>Sasha Boguraev</strong>, Tiago Pimentel, Kyle Mahowald
+</div>
+<div class="paper-venue">EMNLP 2026</div>
+<div class="paper-links">
+<details class="paper-toggle">
+<summary>Abstract</summary>
+<p>To understand the emergence of grammatical behavior in language models, we track circuits for subject&ndash;verb number agreement in pythia-1b and ten seeds of pythia-410m across training. We find that subject&ndash;verb agreement is learned early, and is initially handled by a diffuse collection of neurons. However, after agreement behavior has stabilized, the mechanisms responsible for it continue to reorganize. The attention heads which mediate agreement often shift during training: in the case of pythia-1b, behavior is controlled by two heads early in training but by a third (different) head later. Furthermore, the circuit shrinks over training, with pythia-1b's final circuit being strikingly sparse. We take these results to be informative about how linguistic knowledge emerges and is represented in a language model.</p>
+</details>
+<details class="paper-toggle">
+<summary>BibTeX</summary>
+<pre>@inproceedings{yao2026emergence,
+  title     = {The Emergence and Sparsification of a Syntactic Circuit},
+  author    = {Yao, Qing and Boguraev, Sasha and Pimentel, Tiago and Mahowald, Kyle},
+  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2026}
+}</pre>
+</details>
+</div>
+</div>
+
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2609.01491">GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions</a></div>
+<div class="paper-authors">
+  Elias Stengel-Eskin, Newton Sander, Carlos Bonetti, <strong>Sasha Boguraev</strong>, James Bowler, Hale Sirin, Simon Kirby
+</div>
+<div class="paper-venue">arXiv preprint</div>
+<div class="paper-links">
+<details class="paper-toggle">
+<summary>Abstract</summary>
+<p>The growing rate at which LLM agents interact with one another raises key questions about language evolution in multi-LLM-agent settings, with implications for safety and monitorability as well as for linguistic accounts of LLMs. To address these questions, we introduce GlossoGen, a novel platform for studying multi-agent language evolution in complex scenarios. Within GlossoGen, we build the SaveVeyru scenario, which requires agents with partial information to communicate under pressure. We find that language evolution does occur between LLM agents, that the resulting languages are compositional and morphologically productive, and that they deviate from the LLMs' English prior in ways that render them incomprehensible to humans. Moreover, we identify several qualities essential to this evolution: pressure towards efficiency; the strength of the models backing the agents; and access to a "postmortem" stage in which agents can agree on linguistic conventions. Importantly, we observe that different conditions govern the transmission of language to new agents. Specifically, we find that agents learn new languages from usage alone, take an active role in this learning, and that while stronger models are required for novel language emergence, weaker models can learn an existing language once it has emerged. Taken together, our results indicate that current LLMs have the potential for cumulative cultural evolution &mdash; previously attested only in humans &mdash; with mixed populations of agents developing capacities that go beyond their lowest common denominator.</p>
+</details>
+<details class="paper-toggle">
+<summary>BibTeX</summary>
+<pre>@article{stengeleskin2026glossogen,
+  title   = {GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions},
+  author  = {Stengel-Eskin, Elias and Sander, Newton and Bonetti, Carlos and Boguraev, Sasha and Bowler, James and Sirin, Hale and Kirby, Simon},
+  journal = {arXiv preprint arXiv:2609.01491},
+  year    = {2026}
+}</pre>
+</details>
+</div>
+</div>
+
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2608.28924">Causal Interventions Reveal Typologically Organized Syntactic Mechanisms in Multilingual Language Models</a></div>
+<div class="paper-authors">
+  <strong>Sasha Boguraev</strong>, Toshiki Nakai, Kyle Mahowald, Julius Steuer
+</div>
+<div class="paper-venue">arXiv preprint</div>
+<div class="paper-links">
+<details class="paper-toggle">
+<summary>Abstract</summary>
+<p>Linguistic theory has long recognized cross-linguistic syntactic regularities, leading to claims that these similar structures are processed by similar mechanisms. However, this hypothesis has been difficult to test empirically due to our lack of fine-grained, manipulable access of human processing mechanisms. In this work, we take advantage of techniques from mechanistic interpretability to study such a question in multilingual LMs. We first isolate language-internal mechanisms before attempting to transfer them cross-lingually. Across four models and three well-studied constructions (subject&ndash;verb number agreement, anaphoric pronoun gender agreement, and filler&ndash;gap object extraction) we find consistent cross-lingual mechanism transfer. We further find transfer to be graded, with more transfer between more typologically similar languages. We believe our work provides novel hypotheses about cross-linguistic syntactic structures and multilingual processing, and more broadly shows how the study of language models can help inform linguistic theory.</p>
+</details>
+<details class="paper-toggle">
+<summary>BibTeX</summary>
+<pre>@article{boguraev2026typologically,
+  title   = {Causal Interventions Reveal Typologically Organized Syntactic Mechanisms in Multilingual Language Models},
+  author  = {Boguraev, Sasha and Nakai, Toshiki and Mahowald, Kyle and Steuer, Julius},
+  journal = {arXiv preprint arXiv:2608.28924},
+  year    = {2026}
+}</pre>
+</details>
+</div>
+</div>
+
+<div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2604.13950">Causal Drawbridges: Characterizing Gradient Blocking of Syntactic Islands in Transformer LMs</a></div>
 <div class="paper-authors">
   <strong>Sasha Boguraev</strong>, Kyle Mahowald

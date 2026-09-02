@@ -40,9 +40,9 @@ Previously, I graduated from Cornell University Summa Cum Laude, with degrees in
 
 2. **Sasha Boguraev**, Kyle Mahowald. [Causal Drawbridges: Characterizing Gradient Blocking of Syntactic Islands in Transformer LMs](http://arxiv.org/abs/2604.13950) *COLM 2026.*
 
-3. **Sasha Boguraev**, Qing Yao, Kyle Mahowald. [France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions](https://arxiv.org/abs/2602.23547) *CogSci 2026.*
+3. **Sasha Boguraev**, Toshiki Nakai, Kyle Mahowald, Julius Steuer. [Causal Interventions Reveal Typologically Organized Syntactic Mechanisms in Multilingual Language Models](https://arxiv.org/abs/2608.28924) *arXiv preprint.*
 
-4. **Sasha Boguraev**, Katrin Erk, Kyle Mahowald, James Shearer, Steve Wechsler. [Reinforcement learning produces efficient case-marking systems](https://escholarship.org/uc/item/5c03t5fp) *CogSci 2025.*
+4. **Sasha Boguraev**, Qing Yao, Kyle Mahowald. [France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions](https://arxiv.org/abs/2602.23547) *CogSci 2026.*
 
 ## In the Media
 
