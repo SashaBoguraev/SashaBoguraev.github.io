@@ -36,7 +36,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 </div>
 
 <div class="paper">
-<div class="paper-title"><a href="https://arxiv.org/abs/2610.33299">The Emergence and Sparsification of a Syntactic Circuit</a></div>
+<div class="paper-title"><a href="https://aclanthology.org/2026.emnlp-main.732/">The Emergence and Sparsification of a Syntactic Circuit</a></div>
 <div class="paper-authors">
   Qing Yao, <strong>Sasha Boguraev</strong>, Tiago Pimentel, Kyle Mahowald
 </div>
@@ -52,7 +52,8 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   title     = {The Emergence and Sparsification of a Syntactic Circuit},
   author    = {Yao, Qing and Boguraev, Sasha and Pimentel, Tiago and Mahowald, Kyle},
   booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
-  year      = {2026}
+  year      = {2026},
+  url       = {https://aclanthology.org/2026.emnlp-main.732/}
 }</pre>
 </details>
 </div>
