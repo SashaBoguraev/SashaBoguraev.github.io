@@ -40,7 +40,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 <div class="paper-authors">
   Qing Yao, <strong>Sasha Boguraev</strong>, Tiago Pimentel, Kyle Mahowald
 </div>
-<div class="paper-venue">EMNLP 2026</div>
+<div class="paper-venue">EMNLP 2026, Best Paper Nominee</div>
 <div class="paper-links">
 <details class="paper-toggle">
 <summary>Abstract</summary>
