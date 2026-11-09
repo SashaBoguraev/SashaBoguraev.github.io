@@ -13,7 +13,30 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 ## 2026
 
 <div class="paper">
-<div class="paper-title">The Emergence and Sparsification of a Syntactic Circuit</div>
+<div class="paper-title"><a href="https://openreview.net/forum?id=pXYWXZE3QV">Parasite Features: Causal Abstraction Through Spurious Pathways</a></div>
+<div class="paper-authors">
+  Denis Sutter, Qing Yao, <strong>Sasha Boguraev</strong>, Julian Minder, Antonio Di Maio, Thomas Hofmann, Kyle Mahowald, Tiago Pimentel
+</div>
+<div class="paper-venue">NeurIPS 2026</div>
+<div class="paper-links">
+<details class="paper-toggle">
+<summary>Abstract</summary>
+<p>Causal Abstraction can be used to define a notion of equivalence between a neural network and an algorithm, thus serving as a powerful framework for mechanistic interpretability. In this paper, however, we show the existence of a class of spurious features which straightforwardly pass such equivalence tests. Suppose there are two directions in a model's representation space where: (i) one discriminates the input based on some specific feature, and (ii) the other steers the model towards a certain output. Causal Abstraction techniques can create a pathway leveraging these unrelated directions to simulate their combined behavior in the model, which thus spuriously appears to implement a certain feature. In such cases, we say the method discovered a parasite feature. Experimentally, we show that Distributed Alignment Search&mdash;a Causal Abstraction-based method&mdash;finds parasite features using linear alignment maps in two tasks: syntactic agreement and two-digit addition. Our paper highlights an important consideration for Causal Abstraction and contributes to the ongoing debate about best practices for mechanistic interpretability.</p>
+</details>
+<details class="paper-toggle">
+<summary>BibTeX</summary>
+<pre>@inproceedings{sutter2026parasite,
+  title     = {Parasite Features: Causal Abstraction Through Spurious Pathways},
+  author    = {Sutter, Denis and Yao, Qing and Boguraev, Sasha and Minder, Julian and Di Maio, Antonio and Hofmann, Thomas and Mahowald, Kyle and Pimentel, Tiago},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2026}
+}</pre>
+</details>
+</div>
+</div>
+
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2610.33299">The Emergence and Sparsification of a Syntactic Circuit</a></div>
 <div class="paper-authors">
   Qing Yao, <strong>Sasha Boguraev</strong>, Tiago Pimentel, Kyle Mahowald
 </div>
@@ -29,6 +52,33 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   title     = {The Emergence and Sparsification of a Syntactic Circuit},
   author    = {Yao, Qing and Boguraev, Sasha and Pimentel, Tiago and Mahowald, Kyle},
   booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2026}
+}</pre>
+</details>
+</div>
+</div>
+
+<div class="paper">
+<div class="paper-title"><a href="https://ling.auf.net/lingbuzz/010525">Language Models and Experimental Syntax</a></div>
+<div class="paper-authors">
+  <strong>Sasha Boguraev</strong>, Qing Yao, Kanishka Misra, Kyle Mahowald
+</div>
+<div class="paper-venue">Invited chapter, submitted to G. Goodall (ed.), <em>The Cambridge Handbook of Experimental Syntax</em>, 2nd edition, Cambridge University Press</div>
+<div class="paper-links">
+<details class="paper-toggle">
+<summary>Abstract</summary>
+<p>In the 20th and early 21st centuries, linguists developed techniques for studying syntactic competence and syntactic processing in humans. A key underlying assumption of this work was that all humans who have acquired a language in the typical way are syntactically competent. For much of this period, it was also obvious that machine systems were not syntactically competent. With the rise of Language Models that could seemingly produce and comprehend utterances in human language, this latter assumption was challenged. As a result, there was an explosion of work using the experimental syntax toolkit not to study syntactic processing in competent humans, but rather to ask whether Language Models had emergently developed syntactic competence. This research program proved fruitful, with the study of Language Model syntax now even offering testable hypotheses about human syntax. Here, we tell that story and argue that, while experimental work uncovered major lacunas in syntactic processing in earlier Language Models, modern Language Models have meaningfully acquired syntax.</p>
+</details>
+<details class="paper-toggle">
+<summary>BibTeX</summary>
+<pre>@incollection{boguraev2026experimental,
+  title     = {Language Models and Experimental Syntax},
+  author    = {Boguraev, Sasha and Yao, Qing and Misra, Kanishka and Mahowald, Kyle},
+  booktitle = {The Cambridge Handbook of Experimental Syntax},
+  editor    = {Goodall, Grant},
+  edition   = {2},
+  publisher = {Cambridge University Press},
+  note      = {Under review. lingbuzz/010525},
   year      = {2026}
 }</pre>
 </details>
