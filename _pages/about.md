@@ -18,6 +18,7 @@ Previously, I graduated from Cornell University Summa Cum Laude, with degrees in
 ## News
 
 <ul class="news-list">
+<li class="news-item"><span class="news-date">Nov 2026</span><span><a href="https://arxiv.org/abs/2608.28924">Causal Interventions Reveal Typologically Organized Syntactic Mechanisms in Multilingual Language Models</a> accepted to EACL 2027. See you in Athens 🇬🇷!</span></li>
 <li class="news-item"><span class="news-date">Oct 2026</span><span>Causal Interventions Provide Evidence of Cross-Lingual Representation Convergence in Language Models accepted as an Oral at LSA 2027. See you in San Francisco 🇺🇸!</span></li>
 <li class="news-item"><span class="news-date">Sep 2026</span><span><a href="https://openreview.net/forum?id=pXYWXZE3QV">Parasite Features: Causal Abstraction Through Spurious Pathways</a> accepted to NeurIPS 2026. See you in Paris 🇫🇷!</span></li>
 <li class="news-item"><span class="news-date">Jul 2026</span><span><a href="http://arxiv.org/abs/2604.13950">Causal Drawbridges: Characterizing Gradient Blocking of Syntactic Islands in Transformer LMs</a> accepted to COLM 2026. See you in San Francisco 🇺🇸!</span></li>
@@ -42,7 +43,7 @@ Previously, I graduated from Cornell University Summa Cum Laude, with degrees in
 
 2. **Sasha Boguraev**, Kyle Mahowald. [Causal Drawbridges: Characterizing Gradient Blocking of Syntactic Islands in Transformer LMs](http://arxiv.org/abs/2604.13950) *COLM 2026.*
 
-3. **Sasha Boguraev**, Toshiki Nakai, Kyle Mahowald, Julius Steuer. [Causal Interventions Reveal Typologically Organized Syntactic Mechanisms in Multilingual Language Models](https://arxiv.org/abs/2608.28924) *arXiv preprint.*
+3. **Sasha Boguraev**, Toshiki Nakai, Kyle Mahowald, Julius Steuer. [Causal Interventions Reveal Typologically Organized Syntactic Mechanisms in Multilingual Language Models](https://arxiv.org/abs/2608.28924) *EACL 2027.*
 
 4. **Sasha Boguraev**, Qing Yao, Kyle Mahowald. [France or Spain or Germany or France: A Neural Account of Non-Redundant Redundant Disjunctions](https://arxiv.org/abs/2602.23547) *CogSci 2026.*
 

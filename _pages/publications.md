@@ -10,6 +10,31 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   <sup>*</sup> Indicates equal contribution
 </div>
 
+## 2027
+
+<div class="paper">
+<div class="paper-title"><a href="https://arxiv.org/abs/2608.28924">Causal Interventions Reveal Typologically Organized Syntactic Mechanisms in Multilingual Language Models</a></div>
+<div class="paper-authors">
+  <strong>Sasha Boguraev</strong>, Toshiki Nakai, Kyle Mahowald, Julius Steuer
+</div>
+<div class="paper-venue">EACL 2027</div>
+<div class="paper-links">
+<details class="paper-toggle">
+<summary>Abstract</summary>
+<p>Linguistic theory has long recognized cross-linguistic syntactic regularities, leading to claims that these similar structures are processed by similar mechanisms. However, this hypothesis has been difficult to test empirically due to our lack of fine-grained, manipulable access of human processing mechanisms. In this work, we take advantage of techniques from mechanistic interpretability to study such a question in multilingual LMs. We first isolate language-internal mechanisms before attempting to transfer them cross-lingually. Across four models and three well-studied constructions (subject&ndash;verb number agreement, anaphoric pronoun gender agreement, and filler&ndash;gap object extraction) we find consistent cross-lingual mechanism transfer. We further find transfer to be graded, with more transfer between more typologically similar languages. We believe our work provides novel hypotheses about cross-linguistic syntactic structures and multilingual processing, and more broadly shows how the study of language models can help inform linguistic theory.</p>
+</details>
+<details class="paper-toggle">
+<summary>BibTeX</summary>
+<pre>@inproceedings{boguraev2027typologically,
+  title     = {Causal Interventions Reveal Typologically Organized Syntactic Mechanisms in Multilingual Language Models},
+  author    = {Boguraev, Sasha and Nakai, Toshiki and Mahowald, Kyle and Steuer, Julius},
+  booktitle = {Proceedings of the 2027 Conference of the European Chapter of the Association for Computational Linguistics},
+  year      = {2027}
+}</pre>
+</details>
+</div>
+</div>
+
 ## 2026
 
 <div class="paper">
@@ -103,29 +128,6 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
   title   = {GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions},
   author  = {Stengel-Eskin, Elias and Sander, Newton and Bonetti, Carlos and Boguraev, Sasha and Bowler, James and Sirin, Hale and Kirby, Simon},
   journal = {arXiv preprint arXiv:2609.01491},
-  year    = {2026}
-}</pre>
-</details>
-</div>
-</div>
-
-<div class="paper">
-<div class="paper-title"><a href="https://arxiv.org/abs/2608.28924">Causal Interventions Reveal Typologically Organized Syntactic Mechanisms in Multilingual Language Models</a></div>
-<div class="paper-authors">
-  <strong>Sasha Boguraev</strong>, Toshiki Nakai, Kyle Mahowald, Julius Steuer
-</div>
-<div class="paper-venue">arXiv preprint</div>
-<div class="paper-links">
-<details class="paper-toggle">
-<summary>Abstract</summary>
-<p>Linguistic theory has long recognized cross-linguistic syntactic regularities, leading to claims that these similar structures are processed by similar mechanisms. However, this hypothesis has been difficult to test empirically due to our lack of fine-grained, manipulable access of human processing mechanisms. In this work, we take advantage of techniques from mechanistic interpretability to study such a question in multilingual LMs. We first isolate language-internal mechanisms before attempting to transfer them cross-lingually. Across four models and three well-studied constructions (subject&ndash;verb number agreement, anaphoric pronoun gender agreement, and filler&ndash;gap object extraction) we find consistent cross-lingual mechanism transfer. We further find transfer to be graded, with more transfer between more typologically similar languages. We believe our work provides novel hypotheses about cross-linguistic syntactic structures and multilingual processing, and more broadly shows how the study of language models can help inform linguistic theory.</p>
-</details>
-<details class="paper-toggle">
-<summary>BibTeX</summary>
-<pre>@article{boguraev2026typologically,
-  title   = {Causal Interventions Reveal Typologically Organized Syntactic Mechanisms in Multilingual Language Models},
-  author  = {Boguraev, Sasha and Nakai, Toshiki and Mahowald, Kyle and Steuer, Julius},
-  journal = {arXiv preprint arXiv:2608.28924},
   year    = {2026}
 }</pre>
 </details>
