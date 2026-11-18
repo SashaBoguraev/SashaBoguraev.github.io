@@ -97,15 +97,12 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 </details>
 <details class="paper-toggle">
 <summary>BibTeX</summary>
-<pre>@incollection{boguraev2026experimental,
-  title     = {Language Models and Experimental Syntax},
-  author    = {Boguraev, Sasha and Yao, Qing and Misra, Kanishka and Mahowald, Kyle},
-  booktitle = {The Cambridge Handbook of Experimental Syntax},
-  editor    = {Goodall, Grant},
-  edition   = {2},
-  publisher = {Cambridge University Press},
-  note      = {Under review. lingbuzz/010525},
-  year      = {2026}
+<pre>@unpublished{boguraev2026experimental,
+  title  = {Language Models and Experimental Syntax},
+  author = {Boguraev, Sasha and Yao, Qing and Misra, Kanishka and Mahowald, Kyle},
+  note   = {Under review. Preprint at lingbuzz/010525},
+  url    = {https://ling.auf.net/lingbuzz/010525},
+  year   = {2026}
 }</pre>
 </details>
 </div>
