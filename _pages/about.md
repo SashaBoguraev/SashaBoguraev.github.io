@@ -41,7 +41,7 @@ Previously, I graduated from Cornell University Summa Cum Laude, with degrees in
 
 1. 🏆 **Sasha Boguraev**, Christopher Potts, Kyle Mahowald. [Causal Interventions Reveal Shared Structure Across English Filler–Gap Constructions](https://aclanthology.org/2025.emnlp-main.1271) *EMNLP 2025 Outstanding Paper Award, Oral Spotlight.*
 
-2. Denis Sutter, Qing Yao, **Sasha Boguraev**, Julian Minder, Antonio Di Maio, Thomas Hofmann, Kyle Mahowald, Tiago Pimentel. [Parasite Features: Causal Abstraction Through Spurious Pathways](https://arxiv.org/abs/2611.26711) *NeurIPS 2026.*
+2. Denis Sutter<sup>*</sup>, Qing Yao<sup>*</sup>, **Sasha Boguraev<sup>*</sup>**, Julian Minder, Antonio Di Maio, Thomas Hofmann, Kyle Mahowald, Tiago Pimentel. [Parasite Features: Causal Abstraction Through Spurious Pathways](https://arxiv.org/abs/2611.26711) *NeurIPS 2026.*
 
 3. **Sasha Boguraev**, Kyle Mahowald. [Causal Drawbridges: Characterizing Gradient Blocking of Syntactic Islands in Transformer LMs](http://arxiv.org/abs/2604.13950) *COLM 2026.*
 

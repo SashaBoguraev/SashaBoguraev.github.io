@@ -40,7 +40,7 @@ You can also find my articles on [my Google Scholar profile](https://scholar.goo
 <div class="paper">
 <div class="paper-title"><a href="https://arxiv.org/abs/2611.26711">Parasite Features: Causal Abstraction Through Spurious Pathways</a></div>
 <div class="paper-authors">
-  Denis Sutter, Qing Yao, <strong>Sasha Boguraev</strong>, Julian Minder, Antonio Di Maio, Thomas Hofmann, Kyle Mahowald, Tiago Pimentel
+  Denis Sutter<sup>*</sup>, Qing Yao<sup>*</sup>, <strong>Sasha Boguraev<sup>*</sup></strong>, Julian Minder, Antonio Di Maio, Thomas Hofmann, Kyle Mahowald, Tiago Pimentel
 </div>
 <div class="paper-venue">NeurIPS 2026</div>
 <div class="paper-links">
