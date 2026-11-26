@@ -394,3 +394,19 @@ body {
     gap: 0.15rem;
   }
 }
+
+/* ==========================================================================
+   CV (PDF rendered inline via PDF.js)
+   ========================================================================== */
+
+.cv-pages {
+  margin-top: 1rem;
+}
+
+.cv-pages canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  margin-bottom: 1rem;
+}
