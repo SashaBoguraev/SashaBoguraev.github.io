@@ -401,6 +401,12 @@ body {
 
 .cv-pages {
   margin-top: 1rem;
+  height: 80vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  border: 1px solid var(--border);
+  padding: 0.75rem;
+  background: #e8e8e8;
 }
 
 .cv-pages canvas {
@@ -408,5 +414,10 @@ body {
   width: 100%;
   height: auto;
   border: 1px solid var(--border);
-  margin-bottom: 1rem;
+  background: #fff;
+  margin-bottom: 0.75rem;
+}
+
+.cv-pages canvas:last-child {
+  margin-bottom: 0;
 }
